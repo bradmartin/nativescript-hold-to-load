@@ -2,14 +2,16 @@
 [![npm](https://img.shields.io/npm/dt/nativescript-hold-to-load.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-hold-to-load)
 
 # NativeScript-Hold-To-Load
-Nativescript plugin for press (hold) background animation
+Nativescript plugin for press (hold) background animation.
 
-## Samples
+*Android Only*
 
-![Demo](screens/demo.gif)
+## Sample
+
+![Demo](./screens/demo.gif)
 
 #### Native Library
-![HoldToLoadLayout](https://github.com/melihaksoy/HoldToLoadLayout)
+[HoldToLoadLayout](https://github.com/melihaksoy/HoldToLoadLayout)
 
 ## Installation
 From your command prompt/termial go to your app's root folder and execute:

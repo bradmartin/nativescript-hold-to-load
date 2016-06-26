@@ -1,0 +1,16 @@
+//default elements
+android {
+    productFlavors {
+        "nativescriptholdtoload" {
+            dimension "nativescriptholdtoload"
+        }
+    }
+}
+
+ repositories {
+            maven { url "https://jitpack.io" }
+        }
+
+dependencies {    
+     compile 'com.github.melihaksoy:HoldToLoadLayout:1.0.1'
+}

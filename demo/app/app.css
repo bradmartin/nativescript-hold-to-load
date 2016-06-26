@@ -1,0 +1,15 @@
+﻿.message {
+  color: #000;
+  font-size: 24;
+  horizontal-align: center;
+  padding:15;
+}
+
+
+.circle-image {
+  /*border-radius: 80;*/
+  height: 160;
+  width: 160;
+  border-color: #222;
+  margin: 10;
+}

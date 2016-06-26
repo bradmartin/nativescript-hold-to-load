@@ -1,0 +1,21 @@
+<Page 
+  xmlns="http://schemas.nativescript.org/tns.xsd" 
+  xmlns:HL="nativescript-hold-to-load" loaded="pageLoaded">
+  <ActionBar title="Hold to Load" backgroundColor="#3489db" color="#fff" />
+  <StackLayout>
+
+    <HL:HoldToLoadLayout duration="1000" startColor="#3489db" strokeWidth="50" stopWhenFilled="true" holdComplete="{{ completed }}" holdReset="{{ reset }}">
+      <Label text="Press and Hold" class="message" textWrap="true"/>
+    </HL:HoldToLoadLayout>
+
+    <Label text="You can set a 'startColor' & 'endColor' property to animate the layout color." textWrap="true" />
+    <HL:HoldToLoadLayout startColor="#ff4081" endColor="#336699" strokeWidth="120" strokeAlpha="225" holdComplete="{{ completed }}" holdReset="{{ reset }}" angleChange="{{ angleChange }}">
+      <Image src="~/images/bart.png" class="circle-image" stretch="aspectFit" />
+    </HL:HoldToLoadLayout>
+
+    <GridLayout rows="auto" columns="auto, *">
+      <Label text="Angle - " row="0" col="0" />
+      <Label text="{{ angle }}" row="0" col="1" />
+    </GridLayout>
+  </StackLayout>
+</Page>

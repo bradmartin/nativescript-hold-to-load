@@ -1,6 +1,6 @@
 {
 	"name": "nativescript-hold-to-load",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Nativescript plugin for press (hold) background animation.",
 	"main": "hold-to-load.js",
 	"nativescript": {
